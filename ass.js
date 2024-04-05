@@ -4,9 +4,9 @@ let buku = [
     {"nama": "aladin", "jumlah":2},
   ]
 
-function peminjaman(){
+function cekPeminjaman(){
     let jumlahInput = document.getElementById("jumlah").value;
-    let jumlahBuku = document.getElementById("pilihan").value;
+    let pilihanBuku = document.getElementById("pilihan").value;
 
     if (jumlahInput === "") {
         alert("Masukkan jumlah buku yang dipinjam");
